@@ -1,6 +1,6 @@
 // server/api/github.user.ts
 export default defineEventHandler(async (event) => {
-    const githubUsername = 'miinnee' // Remplacez par votre pseudo
+    const githubUsername = 'miinnee'
     
     try {
       const response = await fetch(`https://api.github.com/users/${githubUsername}`)
